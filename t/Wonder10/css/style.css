@@ -1,0 +1,46 @@
+	        .noonav.noo_menu_60 
+			{
+	            background-color: #0A3151;
+	            border-radius: 0px;
+	            -moz-border-radius: 0px;
+	            -o-border-radius: 0px;
+	        }
+
+            .noonav.noo_menu_60 .noo-nav > li > a {
+                line-height: 44px;
+                font-weight: normal;
+                font-family: Tahoma;
+                font-size: 1em;
+                color: #ffffff;
+                border-right: 1px solid #041F36;
+                text-shadow: 0px 0px 0px;
+                box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.08);
+                -webkit-box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.08);
+                -moz-box-shadow: 1px 0px 0px 0px rgba(255,255,255,0.08);
+                border-radius: 0px;
+                -moz-border-radius: 0px;
+                -o-border-radius: 0px;
+            }
+
+        @media (max-width: 767px) {
+            .noonav.noo_menu_60 .noo-nav > li.mega > a:after 
+			{
+                border-color: #ffffff rgba(0,0,0,0);
+            }
+
+            .noonav.noo_menu_60 .noo-nav > li.mega:hover > a:after, .noonav.noo_menu_60 .noo-nav > li.mega.open > a:after, .noonav.noo_menu_60 .noo-nav > li.mega.current-menu-item > a:after, .noonav.noo_menu_60 .noo-nav > li.mega.current_page_item > a:after, .noonav.noo_menu_60 .noo-nav > li.mega.current_page_ancestor > a:after {
+                border-color: #446cb3 rgba(0,0,0,0);
+            }
+        }
+
+		.noonav.noo_menu_60 .noo-megamenu .dropdown-menu .mega-nav > li > a 
+		{
+			font-weight: normalpx;
+			font-family: Open Sans;
+			font-style: normal;
+			font-size: 16px;
+			color: #7d7d7d;
+			text-shadow: 0px 0px 0px;
+			padding: 2px 20px 2px 20px;
+			border-bottom: 1px solid #eeeeee;
+		}
